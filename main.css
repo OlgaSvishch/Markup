@@ -1,0 +1,37 @@
+.text{
+	font-size: 20px;
+	line-height: 1,25;
+	text-indent: 40px;
+	letter-spacing: 1px;
+	font-family: Arial, sans-serif;
+	word-spacing: 5px;
+}
+.bg-box{
+	height: 500px;
+	width: 800px;
+	background-color: #008000;
+	background-image: url(https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg), 
+	url(https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png),
+	url(https://www.freeiconspng.com/uploads/lamp-png-0.png),
+	url(https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru),
+	url(https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png);
+	background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+	background-position: center center, left bottom, left top, left, right;
+	background-size: 400px, 150px, 30px, 30px, 30px;
+	}
+	
+div[class^='box'] {
+    width: 100px;
+    height: 100px;
+    }
+
+.box1{
+    background: repeating-linear-gradient(to top, #FFFFFF, #FFFFFF 10px, #008000 10px, #008000 20px);
+	}
+
+.box2{      
+    background: linear-gradient(125deg, #000000 20%, #C0C0C0 20%, #C0C0C0 80%, #000000 80%);
+    }
+.box3 {
+    background: radial-gradient(circle,  #FF0000, #FF0000 15px, #000000 10px, #000000 20px);
+}
